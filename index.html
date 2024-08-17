@@ -1,0 +1,165 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <main>
+    <form id="form">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Text1</label>
+          <input type="text" class="form-control" id="text1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">text2</label>
+          <input type="text" class="form-control" id="text2">
+        </div>
+        <div class="form-group form-check">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </main>
+
+
+    <script src="form.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div id="content-container">
+
+    <!--Phone's pictures section-->
+    <section class="phones">
+      <img src="./img/phones.png" alt="pictures on phone" class="phone-image">
+      <div class="display-phone">
+        <img class="picture" src="./img/photo-1.png" alt="#">
+        <img class="picture" src="./img/photo-2.png" alt="#">
+        <img class="picture" src="./img/photo-3.png" alt="#">
+        <img class="picture" src="./img/photo-4.png" alt="#">
+        <img class="picture" src="./img/photo-5.png" alt="#">
+      </div>
+    </section>
+
+    <!--User's log in section-->
+    <section class="user  ">
+
+      <div class="login-container ">
+
+        <!--Instagram Logo-->
+        <div class="instagram-logo-box">
+          <img class="instagram-logo" src="./img/instagram-logo.png">
+        </div>
+
+        <!--Form Login-->
+        <form id="form" class="login-post" method="POST">
+          <div class="inputs-container">
+            <input type="text" name="username" placeholder="Phone number, username or email" id="text1">
+          </div>
+          <div class="inputs-container">
+            <input type="password" name="password" placeholder="Password" id="text2">
+          </div>
+          <button class="login-button"  ><a href="https://www.instagram.com/">Log in</a></button>
+
+          <div class="or-container">
+            <div class="line"></div>
+            <div class="or">OR</div>
+            <div class="line"></div>
+          </div>
+
+          <!--Facebook login-->
+          <div class="facebook-container">
+            <a class="facebook-login" href="https://www.instagram.com/" ><img class="facebook-logo"
+                src="./img/facebook-logo.png">Log in
+              with Facebook</a>
+          </div>
+        </form>
+
+        <!--Password recovery-->
+        <a class="password-forgot" href="https://www.instagram.com/" >Forgot password?</a>
+      </div>
+
+      <!--Sign up-->
+      <div class="signup-container">
+        <p>Don't have an account? <a class="signup" href="https://www.instagram.com/accounts/emailsignup/" >Sign up</a></p>
+      </div>
+
+      <!--App's download-->
+      <div class="get-container">
+        <p>Get the app.</p>
+        <div class="download-container">
+          <a class="download-appstore" href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D1E0CC596-441D-4D21-8DD0-789421E57976%26utm_campaign%3DunifiedHome%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge" ><img class="appstore"
+              src="./img/applestore-logo.png"></a>
+          <a class="download-googleplay" href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D1E0CC596-441D-4D21-8DD0-789421E57976%26utm_campaign%3DunifiedHome%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge" ><img class="googleplay"
+              src="./img/googleplay-logo.png"></a>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer class="page-footer">
+
+    <div class="links-container">
+      <ul class="links-list">
+        <li>
+          <a class="link" href="https://www.instagram.com/" >ABOUT</a>
+        </li>
+        <li>
+          <a class="link" href="https://www.instagram.com/" >PRESS</a>
+        </li>
+        <li>
+          <a class="link" href="https://www.instagram.com/" >API</a>
+        </li>
+        <li>
+          <a class="link" href="https://www.instagram.com/" >JOBS</a>
+        </li>
+        <li>
+          <a class="link" href="https://www.instagram.com/" >PRIVACY</a>
+        </li>
+        <li>
+          <a class="link" href="https://www.instagram.com/" >TERMS</a>
+        </li>
+        <li>
+          <a class="link" href="https://www.instagram.com/" >LOCATIONS</a>
+        </li>
+        <li>
+          <a class="link" href="https://www.instagram.com/" >TOP ACCOUNTS</a>
+        </li>
+        <li>
+          <a class="link" href="https://www.instagram.com/" >HASHTAGS</a>
+        </li>
+        <li>
+          <a class="link" href="https://www.instagram.com/" >LANGUAGE</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-span-container">
+      <span class="footer-span">
+        © 2020 INSTAGRAM FROM FACEBOOK
+      </span>
+    </div>
+  </footer>
+  <script src="form.js"></script>
+</body>
+
+</html>
